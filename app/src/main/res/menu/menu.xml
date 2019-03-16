@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"/>
+    <item
+        android:id="@+id/call"
+        android:title="Call"/>
+    <item
+        android:id="@+id/forward"
+        android:title="Forward"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/whatsapp"
+                android:title="Whatsapp"/>
+            <item
+                android:id="@+id/gmail"
+                android:title="Gmail"/>
+            <item
+                android:id="@+id/shareit"
+                android:title="Shareit"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"/>
+    <item
+        android:id="@+id/logout"
+        android:title="logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:showAsAction="always"/>
+</menu>
